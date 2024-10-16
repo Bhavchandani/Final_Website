@@ -1,15 +1,3 @@
-console.log("run")
-
-function handleSubmit(event) {
-    event.preventDefault();
-    
-    
-    alert('Thanks for your message. We will be in touch.');
-
-    
-    document.getElementById('contactForm').reset();
-}
-
 function openModal(modalId) {
     document.getElementById(modalId).style.display = "block";
 }
