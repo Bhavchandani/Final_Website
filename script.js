@@ -1,3 +1,5 @@
+console.log("Script loaded");
+
 function openModal(modalId) {
     document.getElementById(modalId).style.display = "block";
 }
