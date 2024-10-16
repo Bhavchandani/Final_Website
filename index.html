@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="#">
+                <img src="/Users/bhavanachandani/Documents/BhavChan/Study/DJP/fewd_final_project/fewd_final_project/Images/logo.JPG" alt="Logo">
+            </a>
+        </div>
+        <nav class="navigation">
+            <ul>
+                <li><a href="#classes">Yoga Classes</a></li>
+                <li><a href="#photography">Yoga Photography</a></li>
+                <li><a href="#retreat">Wellness Retreats</a></li>
+                <li><a href="#studio">Find me at</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about" class="about">
+        <div class="about-content">
+            <img src="/Users/bhavanachandani/Documents/BhavChan/Study/DJP/fewd_final_project/fewd_final_project/Images/my_Image.JPG" alt="My Image" class="profile-image">
+            <div class="about-text">
+                <h2>Who's this girl?</h2>
+                <p>Hello there! I'm Bhavana, a name that means "cultivation" in Sanskrit, and "emotion" in Hindi—perfect for someone passionate about nurturing both body and spirit! As a dedicated yoga practitioner and a certified 500-hour yoga teacher, I’m here to guide you on a transformative journey of wellness through movement and mindfulness. With over five years of experience, think of me as your friendly neighborhood yoga guide, ready to help you find your zen (or at least a good stretch!).<br><br>My foundation in yoga philosophy, anatomy, and alignment principles is solid enough to make a brick wall jealous(or so I dream). With 500 hours of teacher training under my belt, I’m always hungry for more knowledge—like a yoga-loving sponge! My mission? To deliver professional, high-quality instruction tailored to your unique needs and goals. <br><br>But don’t worry, my classes aren’t all serious business! I thrive on creating a supportive and inclusive environment where you’ll feel valued, empowered, and a bit like you’re hanging out with a friend who also happens to be a yoga guru. Expect a delightful blend of dynamic movement, breath awareness, and meditation that’ll make you feel confident and inspire personal growth—like a beautiful lotus blooming in a muddy pond.So, join me on the mat for some self-discovery, strength, and serenity! Together, we’ll explore the transformative power of yoga that nourishes your body, calms your mind, and helps you reconnect with your true self.<br><br>And when I’m not guiding you through asanas, you might find me capturing the beauty of yoga through my camera or planning exciting wellness retreats. I can’t wait to meet you and share this incredible journey together!</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="classes" class="classes">
+        <h2>Classes Offered</h2>
+        <div class="class-grid">
+            <div class="class-item">
+                <h3>Hatha</h3>
+                <img src="/Users/bhavanachandani/Documents/BhavChan/Study/DJP/fewd_final_project/fewd_final_project/Images/hatha.JPG" alt="Hatha Yoga" class="class-image">
+                <button class="know-more" onclick="openModal('hathaModal')">What is Hatha Yoga? </button>
+            </div>
+            <div id="hathaModal" class="hathaModal">
+                <div class="modal-content">
+                    <span class="close" onclick="closeModal('hathaModal')">&times;</span>
+                    <p>Hatha Yoga is a traditional form of yoga that emphasizes physical postures (asanas) and breathing techniques (pranayama) to promote balance and well-being. It serves as a foundation for many other yoga styles and is designed to prepare the body for meditation.<br></br>Hatha Yoga is about cultivating a harmonious relationship between body and mind, making it a popular choice for anyone looking to improve their physical and mental health.</p>
+                </div>
+            </div>
+
+            <div class="class-item">
+                <h3>Vinyasa</h3>
+                <img src="/Users/bhavanachandani/Documents/BhavChan/Study/DJP/fewd_final_project/fewd_final_project/Images/vinyasa.JPG" alt="Vinyasa Yoga" class="class-image">
+                <button class="know-more" onclick="openModal('vinyasaModal')">What is Vinyasa Yoga? </button>
+            </div>
+            <div id="vinyasaModal" class="vinyasaModal">
+                <div class="modal-content">
+                    <span class="close" onclick="closeModal('vinyasaModal')">&times;</span>
+                    <p>Vinyasa Yoga is a dynamic and flowing style of yoga that links breath with movement, creating a seamless transition between poses. It is often characterized by its emphasis on fluidity and coordination, making each class unique and energetic. <br></br> Vinyasa Yoga is perfect for those looking for an active practice that challenges the body and calms the mind, all while encouraging a deep sense of connection to oneself.</p>
+                </div>
+            </div>
+
+            <div class="class-item">
+                <h3>Yin</h3>
+                <img src="/Users/bhavanachandani/Documents/BhavChan/Study/DJP/fewd_final_project/fewd_final_project/Images/yin.JPG" alt="Yin Yoga" class="class-image">
+                <button class="know-more" onclick="openModal('yinModal')">What is Yin Yoga? </button>
+            </div>
+            <div id="yinModal" class="yinModal">
+                <div class="modal-content">
+                    <span class="close" onclick="closeModal('yinModal')">&times;</span>
+                    <p>Yin Yoga is a slow-paced and meditative style of yoga that focuses on passive stretching and holding poses for extended periods, typically ranging from 3 to 5 minutes or longer. It emphasizes the connective tissues of the body, such as ligaments and fascia, promoting deep relaxation and flexibility.<br></br> Yin Yoga is ideal for those seeking a gentle yet profound approach to relaxation and self-discovery, making it a perfect complement to more vigorous forms of exercise.</p>
+                </div>
+            </div>
+
+            <div class="class-item">
+                <h3>PowerYoga</h3>
+                <img src="/Users/bhavanachandani/Documents/BhavChan/Study/DJP/fewd_final_project/fewd_final_project/Images/PowerYoga.JPG" alt="PowerYoga" class="class-image">
+                <button class="know-more" onclick="openModal('powerYogaModal')">What is Power Yoga? </button>
+            </div>
+            <div id="powerYogaModal" class="powerYogaModal">
+                <div class="modal-content">
+                    <span class="close" onclick="closeModal('powerYogaModal')">&times;</span>
+                    <p>Power Yoga is a dynamic and vigorous style of yoga that emphasizes strength, flexibility, and endurance through a series of challenging poses. It often incorporates elements from Ashtanga yoga, focusing on flowing movements synchronized with breath, which helps to build heat in the body.<br></br> Power Yoga is suitable for a wide range of individuals, from beginners to advanced practitioners, but it's advisable for beginners to start with foundational yoga classes before diving into this more intense style.</p>
+                </div>
+            </div>
+
+            <div class="class-item">
+                <h3>Fun with shapes</h3>
+                <img src="/Users/bhavanachandani/Documents/BhavChan/Study/DJP/fewd_final_project/fewd_final_project/Images/Shapes.JPG" alt="shapes" class="class-image">
+                <button class="know-more" onclick="openModal('shapesModal')">What is this? Yoga? </button>
+            </div>
+              <div id="shapesModal" class="shapesModal">
+                <div class="modal-content">
+                    <span class="close" onclick="closeModal('shapesModal')">&times;</span>
+                    <p>Yoga for Creativity is a unique practice that invites participants to explore movement, shapes, and expression through their bodies and props. This approach encourages playful experimentation, allowing individuals to break free from traditional poses and tap into their imaginative potential. <br></br> Yoga for Creativity is perfect for anyone looking to explore their artistic side, whether they are seasoned yogis or complete beginners. It’s an invitation to play, discover, and connect with oneself in a joyful and liberating way.</p>
+                </div>
+            </div>
+
+            <div class="class-item">
+                <h3>Yinyasa</h3>
+                <img src="/Users/bhavanachandani/Documents/BhavChan/Study/DJP/fewd_final_project/fewd_final_project/Images/Yinyasa.JPG" alt="Yin Yoga" class="class-image">
+                <button class="know-more" onclick="openModal('yinyasaModal')">What is Yinyasa? </button>
+            </div>
+            <div id="yinyasaModal" class="yinyasaModal">
+                <div class="modal-content">
+                    <span class="close" onclick="closeModal('yinyasaModal')">&times;</span>
+                    <p>Yin and Yang yoga or as I call it Yinyasa- is a complementary practice that balances the more dynamic and active aspects of yoga (Yang) with the slower, restorative, and meditative qualities of Yin.<br></br> Yinyasa appeals to anyone seeking a balanced approach to physical and mental well-being.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Want to know more? Let's get talking</h2>
+        <div class="contact-form-wrapper">
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="socials">
+            <h3>Follow Me</h3>
+            <a href="https://instagram.com" target="_blank">Instagram</a>
+            <a href="https://facebook.com" target="_blank">Facebook</a>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
