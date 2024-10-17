@@ -23,7 +23,7 @@ header {
     margin: 0 auto;
     justify-content: center;
     display: flex;
-    padding: 10px;
+    padding: 10px 0 30px 0;
 }
 
 .navigation ul li {
@@ -38,7 +38,7 @@ header {
 
 .about {
     background-color: #F4E5D8;
-    padding: 30px 20px;
+    padding: 50px 20px;
 }
 
 .about-content h2{
@@ -53,11 +53,21 @@ header {
 .about-content {
     display: flex;
     flex-direction: row;
+    text-align: center;
+    font-size: 15px;
     align-items: center;
     color: #8e6240 ;
-    padding: 0 80px 0 0;
+    width: 95%;
+    padding: 0 50px 0 10px;
 }
 
+.more-about-me-content{
+    display: flex;
+    align-items: center;
+    color: #8e6240 ;
+    width: 95   %;
+    padding: 0 30px 0 10px;
+}
 
 .logo img {
     width: 400px;
@@ -72,7 +82,16 @@ header {
     width: 600px;
     height: auto;
     border-radius: 5%;
-    margin: 50px 50px 0 100px;
+    margin: 10px 50px 0 50px;
+    background-size: cover;
+    display: flex;
+}
+
+.profile-image1 {
+    width: 600px;
+    height: auto;
+    border-radius: 5%;
+    margin: 0 50px 0 50px;
     background-size: cover;
     display: flex;
 }
@@ -209,6 +228,7 @@ button {
     background: #D6B49A;
     color: white;
     font-size: 25px;
+
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -295,7 +315,7 @@ footer {
     .about, .classes, .contact {
         padding: 20px 10px;
     }
-    
+
     .classes p{
         font-weight: normal;
     }
