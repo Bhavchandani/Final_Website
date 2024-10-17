@@ -1,14 +1,7 @@
 console.log("Script loaded");
 
-function handleSubmit(event) {
-    event.preventDefault(); // Prevent the default form submission
-    
-    // Show alert message
-    alert('Thanks for your message. We will be in touch.');
+console.log("run")
 
-    // Reset the form
-    document.getElementById('contactForm').reset();
-}
 
 let currentModal = null;
 
@@ -21,7 +14,7 @@ function openModal(modalId) {
     const button = event.target;
     const rect = button.getBoundingClientRect();
 
-    // Set modal position based on button position
+    /* Set modal position based on button position */
     modal.style.display = "block";
     modal.style.top = `${rect.bottom + window.scrollY}px`;
     modal.style.left = `${rect.left + window.scrollX}px`;
