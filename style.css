@@ -310,6 +310,10 @@ footer {
         font-size: 15px;
     }
 
+    .coming-soon{
+        max-width: 80%;
+    }
+    
     .logo img{
         width: 100%;
         align-items: center;
