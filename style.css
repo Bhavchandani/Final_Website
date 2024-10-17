@@ -284,8 +284,9 @@ footer {
         text-align: center;             
     }
 
-    .logo {
+    .logo img{
         width: 100%;
+        align-items: center;
     }
 
     .profile-image {
@@ -324,7 +325,7 @@ footer {
         max-width: 100%;
     }
 
-    .logo {
+    .logo img{
         width: 100%;
         align-items: center;
     }
