@@ -127,90 +127,19 @@ header {
     color: #8e6240 ;
     max-width: 100%;
     text-align: left;
-    padding: 0 50px 25px 50px;
+    padding: 15px ;
     margin-left: 0px ;
 }
 
 /*modal window css*/
 
-
-.hathaModal {
+.modal {
     display: none;
     position: absolute;
-    top: 120%;
-    left: 10;
     background-color: #fefefe;
     border: 1px solid #888;
-    padding: 10px;
-    z-index: 10; 
-    width: 31.5%;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-}
-
-.vinyasaModal {
-    display: none;
-    position: absolute;
-    top: 80%;
-    left: 488px;
-    background-color: #fefefe;
-    border: 1px solid #888;
-    padding: 10px;
-    z-index: 10; 
-    width: 31.5%;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-}
-
-.yinModal {
-    display: none;
-    position: absolute;
-    top: 120%;
-    left: 957px;
-    background-color: #fefefe;
-    border: 1px solid #888;
-    padding: 10px;
-    z-index: 10; 
-    width: 31.5%;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-}
-
-.powerYogaModal {
-    display: none;
-    position: absolute;
-    top: 163%;
-    left: 10;
-    background-color: #fefefe;
-    border: 1px solid #888;
-    padding: 10px;
-    z-index: 10; 
-    width: 31.5%;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-}
-
-.shapesModal {
-    display: none;
-    position: absolute;
-    top: 163%;
-    left: 488px;
-    background-color: #fefefe;
-    border: 1px solid #888;
-    padding: 10px;
-    z-index: 10; 
-    width: 31.5%;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-}
-
-
-.yinyasaModal {
-    display: none;
-    position: absolute;
-    top: 163%;
-    left: 957px;
-    background-color: #fefefe;
-    border: 1px solid #888;
-    padding: 10px;
-    z-index: 10; 
-    width: 31.5%;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 24%;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
 }
 
 .know-more {
@@ -223,7 +152,7 @@ header {
 .close {
     color: #aaa;
     float: right;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: bold;
 }
 
@@ -280,7 +209,6 @@ button {
     background: #D6B49A;
     color: white;
     font-size: 25px;
-
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -317,11 +245,9 @@ footer {
         text-align: center;           
     }
 
-    .hathaModal {
-        width: 95%;
-        left: 50%;
-        transform: translateX(-50%);
-        top: 135%;
+    .modal {
+        width: 80%;
+        transform: translateX(-23%);
     }
 
     .about {
@@ -378,7 +304,7 @@ footer {
         width: 100%;
     }
 
-    .hathaModal {
+    .modal {
         width: 480px;
         left: 0;
     }
