@@ -295,6 +295,10 @@ footer {
     .about, .classes, .contact {
         padding: 20px 10px;
     }
+    
+    .classes p{
+        font-weight: normal;
+    }
 
     .contact-form-wrapper {
         max-width: 100%;
