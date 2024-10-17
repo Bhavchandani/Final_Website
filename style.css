@@ -355,6 +355,10 @@ footer {
         align-items: center;             
         padding-top: 10px;                                  
     }
+
+    .coming-soon{
+        max-width: 80%;
+    }
     
     .classes p{
         font-weight: normal;
