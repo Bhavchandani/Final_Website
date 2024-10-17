@@ -53,7 +53,6 @@ header {
 .about-content {
     display: flex;
     flex-direction: row;
-    text-align: center;
     font-size: 15px;
     align-items: center;
     color: #8e6240 ;
@@ -65,7 +64,6 @@ header {
     display: flex;
     align-items: center;
     flex-direction: row;
-    text-align: center;
     color: #8e6240 ;
     width: 95%;
     padding: 0 30px 0 10px;
@@ -292,10 +290,10 @@ footer {
     }
 
     .know-more {
-    margin-top: 10px;
-    margin-bottom: 20px;
-    width: 55%;
-    font-size: 15px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        width: 55%;
+        font-size: 15px;
     }
 
     .logo img{
