@@ -326,6 +326,7 @@ footer {
 
     .logo {
         width: 100%;
+        align-items: center;
     }
 
     .modal {
