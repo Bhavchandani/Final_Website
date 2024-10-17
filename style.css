@@ -280,7 +280,14 @@ footer {
         padding: 20px 10px;             
     }
 
-    .about-content , .more-about-me-content {
+    .about-content {
+        flex-direction: column;           
+        align-items: center;             
+        padding: 0;                      
+        text-align: center;             
+    }
+
+     .more-about-me-content{
         flex-direction: column;           
         align-items: center;             
         padding: 0;                      
