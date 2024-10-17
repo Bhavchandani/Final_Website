@@ -309,9 +309,14 @@ footer {
         width: 55%;
         font-size: 15px;
     }
+    
+    .yoga-photography {
+        padding: 50px;
+        font-size: 18px;
+    }
 
-    .coming-soon{
-        max-width: 80%;
+    .coming-soon {
+        padding: 40px;
     }
     
     .logo img{
@@ -360,8 +365,13 @@ footer {
         padding-top: 10px;                                  
     }
 
-    .coming-soon{
-        max-width: 80%;
+    .yoga-photography {
+        padding: 50px;
+        font-size: 18px;
+    }
+
+    .coming-soon {
+        padding: 40px;
     }
     
     .classes p{
