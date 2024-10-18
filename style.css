@@ -281,7 +281,7 @@ footer {
 
     .modal {
         width: 80%;
-        transform: translateX(-23%);
+        transform: translateX(-22.5%);
     }
 
     .about {
@@ -388,8 +388,8 @@ footer {
     }
 
     .modal {
-        width: 77%;
-        transform: translateX(-23%);
+        width: 78%;
+        transform: translateX(-22.5%);
     }
 
     .class-grid {
