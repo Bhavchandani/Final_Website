@@ -260,10 +260,75 @@ footer {
     padding: 20px 0;
 }
 
-.socials a {
-    margin: 0 10px;
-    text-decoration: none;
-    color: #ffffff;
+.insta-icon{
+	width: 60px;
+	height: 60px;
+	border-radius: 15px;
+	text-align: center;
+	background-image: linear-gradient(155deg, #4C57A2 8%, #87439A 50%, #e02870 85%);
+	position: relative;
+	overflow: hidden;
+	&:after{
+		content: '';
+		display: block;
+		position: absolute;
+		top: 30%;
+    	left: -60%;
+		width: 150%;
+		height: 150%;
+		background: radial-gradient(rgba(246, 221, 132,1) 15%, 
+			rgba(255, 45, 45, 0.65) 50%, 
+			rgba(0, 0, 0, 0) 70%);
+    }
+	i{
+		color: #fff;
+    	font-size: 50px;
+		line-height: 60px;
+		position: relative;
+		z-index: 1;
+	}
+}
+
+$blue-color : #3b5998;
+$gray-color : #eee;
+
+body {
+  margin: 35px auto;
+  text-align: center;
+  display: block;
+}
+
+#facebook-icon {
+  background: $blue-color;
+  text-indent: -999em;
+  width: 100px;
+  height: 110px;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+  border: 15px solid $blue-color;
+  border-bottom: 0;
+  display: inline-block;
+  &::before {
+    background: $blue-color;
+    content: "/20";
+    position: absolute;
+    bottom: -30px;
+    right: -37px;
+    width: 40px;
+    height: 90px;
+    border: 20px solid $gray-color;
+    border-radius: 25px;
+  }
+  &::after {
+    background: $gray-color;
+    content: "/20";
+    position: absolute;
+    top: 50px;
+    right: 5px;
+    width: 55px;
+    height: 20px;
+  }
 }
 
 @media (max-width: 768px) {
